@@ -14,10 +14,3 @@ st.write("""
     """)
 
 pd.read_csv('https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/data/moessbauer%20standard%20data.csv')
-
-
-# In[ ]:
-
-
-
-
