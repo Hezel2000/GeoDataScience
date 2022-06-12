@@ -16,10 +16,6 @@ st.write(df)
 st.sidebar.header('ss')
 st.sidebar.selectbox('Element', ['Si', 'Mg', 'Al'])
 
-fig, ax = plt.subplots()
-ax.scatter([1,2,3,4],[1,2,3,4])
-
-st.pyplot(fig)
 
 st.write('test Bokeh')
 
