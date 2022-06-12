@@ -10,5 +10,20 @@ Original file is located at
 """
 
 import streamlit as st
+import pandas as pd
+
+st.write("""
+# First Test
+of all this
+""")
 
 st.header('Enter an Oxide')
+data_input = '1, 2, 3, 4'
+
+inp = st.text_area('Input', data_input, height=200)
+inp = inp.splitlines()
+inp = ''.join(inp)
+
+st.write(
+    ***
+)
