@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[11]:
 
 
 import streamlit as st
-import matplotlib.pyplot as plt
+import pandas as pd
 
 st.write("""
     # Kleiner Test
@@ -13,5 +13,11 @@ st.write("""
     mit diesem Kram
     """)
 
-st.pyplot([1,2,3,4])
+pd.read_csv('https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/data/moessbauer%20standard%20data.csv')
+
+
+# In[ ]:
+
+
+
 
