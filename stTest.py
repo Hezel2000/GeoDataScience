@@ -5,7 +5,7 @@
 
 
 import streamlit as st
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 st.write("""
     # Kleiner Test
