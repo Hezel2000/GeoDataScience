@@ -4,8 +4,8 @@
 # In[10]:
 
 
-#import streamlit as st
-#import matplotlib.pyplot as plt
+import streamlit as st
+import matplotlib.pyplot as plt
 
 st.write("""
     # Kleiner Test
@@ -13,6 +13,5 @@ st.write("""
     mit diesem Kram
     """)
 
-plt.plot([1,2,3,4])
-plt.show()
+st.pyplot([1,2,3,4])
 
