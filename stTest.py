@@ -13,5 +13,6 @@ st.write("""
     mit diesem Kram
     """)
 
-st.pyplot([1,2,3,4])
+plt.plot([1,2,3,4])
 
+plt.show()
