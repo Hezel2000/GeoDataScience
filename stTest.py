@@ -4,7 +4,7 @@
 # In[10]:
 
 
-#import streamlit as st
+import streamlit as st
 #import matplotlib.pyplot as plt
 
 st.write("""
