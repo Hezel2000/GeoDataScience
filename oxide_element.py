@@ -24,6 +24,9 @@ inp = st.text_area('Input', data_input, height=200)
 inp = inp.splitlines()
 inp = ''.join(inp)
 
-st.write(
+st.write('''
     ***
-)
+''')
+
+st.header('Your Input')
+inp
