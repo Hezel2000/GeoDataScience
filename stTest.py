@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
+# In[10]:
 
 
 import streamlit as st
+import matplotlib.pyplot as plt
 
 st.write("""
     # Kleiner Test
@@ -12,5 +13,6 @@ st.write("""
     mit diesem Kram
     """)
 
-st.line_chart([1,2,3,4])
+plt.plot([1,2,3,4])
+plt.show()
 
