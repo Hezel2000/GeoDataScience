@@ -37,10 +37,6 @@ df2 = pd.DataFrame([1,2,3],[5,5,6])
 
 st.write(df1)
 st.write(df2)
-tabdf1 = Panel(child=st.write(df1), title='test')
-
-
-Tabs(tabs=[tabdf1, tabdf1])
 
 st.subheader('Plot')
  
