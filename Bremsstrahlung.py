@@ -2,6 +2,7 @@
 # coding: utf-8
 import streamlit as st
 import numpy as np
+import pandas as pd
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import Panel, Tabs
 
@@ -29,6 +30,18 @@ $E_0$ = beam energy in keV \n
 $E$ = photon energy \n
 ''')
 
+st.subheader('Data')
+
+df1 = pd.DataFrame([1,2,3],[5,5,6])
+df2 = pd.DataFrame([1,2,3],[5,5,6])
+
+st.write(df1)
+st.write(df2)
+tabdf1 = Panel(child=st.write(df1), title='test')
+
+
+Tabs(tabs=[tabdf1, tabdf1])
+
 st.subheader('Plot')
  
  
@@ -38,18 +51,20 @@ E0 = 15
 Z = 27
 I = 5
 
-x = np.linspace(0,10,50)
+x = np.linspace(.1,10,50)
 y = I * Z * (E0 - x)/x
 #interact(f, E0 = (5,30,5), Z = (1,92), I = 5)
  
 fig1.line(x, y, line_color='green')
-tab1 = Panel(child=fig1, title="Tab 1")
- 
+tab1 = Panel(child=fig1, title="Drift Inspection")
+
+
 fig2 = figure(plot_width=400, plot_height=200)
  
 fig2.line(y, x, line_color='red')
-tab2 = Panel(child=fig2, title="Tab 2")
- 
+tab2 = Panel(child=fig2, title="Lalpha / Lbeta")
+
+
 all_tabs = Tabs(tabs=[tab1, tab2])
  
 st.bokeh_chart(all_tabs)
