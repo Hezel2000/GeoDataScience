@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 import streamlit as st
-import matplotlib.pyplot as plt
 import numpy as np
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import Panel, Tabs
