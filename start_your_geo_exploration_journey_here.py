@@ -12,7 +12,7 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.markdown("[![Foo](icons/flank method.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
+st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/flank%20method.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
 
 st.markdown("[![Foo](icons/flank method.jpg)](https://hezel2000-geodat-start-your-geo-exploration-journey-here-56xkhu.streamlitapp.com)")
 
