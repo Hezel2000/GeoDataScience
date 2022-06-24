@@ -26,4 +26,4 @@ with col1:
     st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/flank%20method%20small.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
     
 with col2:
-    st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/flank%20method.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
+    st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/Metbase%20Logo.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
