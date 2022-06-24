@@ -6,7 +6,7 @@ import pandas as pd
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import Panel, Tabs
 
-st.header('Bremsstrahlung II')
+st.header('Bremsstrahlung')
 
 st.write('''
 Kramers' Law describes on which parameters the Bremsstrahlung as a function of the photon energy 
