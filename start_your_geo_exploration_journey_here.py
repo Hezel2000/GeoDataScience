@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import streamlit as st
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -11,7 +13,6 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-import streamlit as st
 
 st.header('Welcome to the Home of Geoscience Apps')
 
