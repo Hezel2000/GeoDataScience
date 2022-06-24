@@ -6,3 +6,5 @@ import streamlit as st
 st.header('Welcome to the Home of Geoscience Apps')
 
 st.subheader('Choose where to go next:')
+
+st.image('icons/flank method.jpg')
