@@ -22,8 +22,13 @@ st.subheader('Choose where to go next:')
 
 col1, col2, col3 = st.columns(3)
 
+#image width 200 px at 300 dpi resolution
+
 with col1:
     st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/flank%20method%20small.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
     
 with col2:
     st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/MetBase%20Logo.jpg)](https://metbase.org)")
+    
+with col3:
+    st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/GeoROC%20Viewer.jpg)](https://metbase.org)")
