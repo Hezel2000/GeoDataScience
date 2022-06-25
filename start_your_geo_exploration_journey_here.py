@@ -29,4 +29,4 @@ with col2:
     st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/MetBase%20Logo.jpg)](https://metbase.org)")
     
 with col3:
-    st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/GeoROC%20Viewer.jpg)](https://hezel2000-georoc-georoc-viewer-oe6zvy.streamlitapp.com/)")
+    st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/GeoROC%20Viewer.png)](https://hezel2000-georoc-georoc-viewer-oe6zvy.streamlitapp.com/)")
