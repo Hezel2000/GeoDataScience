@@ -24,6 +24,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/flank%20method%20small.jpg)](https://hezel2000-flank-method-flank-data-reduction-2ncvvv.streamlitapp.com)")
+    st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/DS-course.jpg)](https://hezel2000-data-science-ds-course-1jyi58.streamlitapp.com)")
     
 with col2:
     st.markdown("[![Foo](https://raw.githubusercontent.com/Hezel2000/GeoDataScience/main/icons/MetBase%20Logo.jpg)](https://metbase.org)")
